@@ -1,0 +1,49 @@
+{
+  "name": "opengit-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for OpenGit: lets AI agents search agent-ready open source repos by task, interface and OG score.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "opengit",
+    "ai-agents",
+    "open-source",
+    "claude-code",
+    "cursor",
+    "codex",
+    "agent-tools"
+  ],
+  "homepage": "https://opengit.cc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opengitteam/opengit-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/opengitteam/opengit-mcp/issues"
+  },
+  "license": "MIT",
+  "author": "OpenGit (https://opengit.cc)",
+  "mcpName": "io.github.opengitteam/opengit-mcp",
+  "type": "module",
+  "bin": {
+    "opengit-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  }
+}
