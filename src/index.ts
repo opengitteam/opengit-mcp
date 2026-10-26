@@ -7,7 +7,7 @@
 
 import { createInterface } from 'node:readline'
 
-const VERSION = '0.1.0'
+const VERSION = '0.1.1'
 const ENDPOINT = process.env.OPENGIT_MCP_URL ?? 'https://opengit.cc/mcp'
 const TIMEOUT_MS = Number(process.env.OPENGIT_TIMEOUT_MS ?? 30_000)
 

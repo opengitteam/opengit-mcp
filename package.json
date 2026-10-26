@@ -1,7 +1,7 @@
 {
   "name": "opengit-mcp",
-  "version": "0.1.0",
-  "description": "MCP server for OpenGit: lets AI agents search agent-ready open source repos by task, interface and OG score.",
+  "version": "0.1.1",
+  "description": "MCP server for OpenGit: lets AI agents search agent-ready open source repos by task, interface, ecosystem and OG score.",
   "keywords": [
     "mcp",
     "model-context-protocol",
@@ -12,7 +12,10 @@
     "claude-code",
     "cursor",
     "codex",
-    "agent-tools"
+    "agent-tools",
+    "solana",
+    "base",
+    "x402"
   ],
   "homepage": "https://opengit.cc",
   "repository": {
