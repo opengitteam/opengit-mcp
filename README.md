@@ -12,6 +12,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/opengit-mcp"><img src="https://img.shields.io/npm/v/opengit-mcp?style=flat-square&color=d9f970&labelColor=0a0a0a" alt="npm" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-d9f970?style=flat-square&labelColor=0a0a0a" alt="MIT" /></a>
+  <a href="https://opengit.cc/repo/opengitteam/opengit-mcp"><img src="https://opengit.cc/badge/opengitteam/opengit-mcp.svg" alt="OpenGit" /></a>
 </p>
 
 ---

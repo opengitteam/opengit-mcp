@@ -1,0 +1,9 @@
+# Smithery (smithery.ai) runs the published npm package over stdio. No configuration needed.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    () => ({ command: 'npx', args: ['-y', 'opengit-mcp'] })
+  exampleConfig: {}
