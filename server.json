@@ -2,18 +2,18 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.opengitteam/opengit-mcp",
   "title": "OpenGit",
-  "description": "Search agent-ready open source repos by task, interface, ecosystem and OG score.",
+  "description": "Search agent-ready open source by task, interface, chain and OG score, and tip claimed repos.",
   "websiteUrl": "https://opengit.cc",
   "repository": {
     "url": "https://github.com/opengitteam/opengit-mcp",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "opengit-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       }
